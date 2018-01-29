@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="primaryBlue">#5CBAF2 </color>
+    <color name="primaryLighterBlue">#F3FAFE </color>
+    <color name="primaryLightBlue">#9AD3F5 </color>
+    <color name="primaryDarkBlue">#1d93d9</color>
+    <color name="primaryDarkerBlue">#006dae</color>
+
+    <color name="secondaryRed">#FF6058 </color>
+    <color name="secondaryLighterRed">#FFF4F3 </color>
+    <color name="secondaryLightRed">#FF9F9A </color>
+    <color name="secondaryDarkRed">#d9160c</color>
+    <color name="secondaryDarkerRed">#a70900</color>
+
+    <color name="secondaryYellow">#FFDB58 </color>
+    <color name="secondaryLighterYellow">#FFFCF3 </color>
+    <color name="secondaryLightYellow">#FFE99A </color>
+    <color name="secondaryDarkYellow">#e1b40d</color>
+    <color name="secondaryDarkerYellow">#b79000</color>
+
+    <color name="complementOrange">#FFB458 </color>
+    <color name="complementLighterOrange">#FFFAF3 </color>
+    <color name="complementLightOrange">#FFD29A </color>
+    <color name="complementDarkOrange">#e4840f</color>
+    <color name="complementDarkerOrange">#ca6f00</color>
+
+    <color name="mediumGrey">#757575</color>
+    <color name="lightGrey">#eee</color>
+    <color name="nearWhite">#f7f7f7</color>
+
+</resources>

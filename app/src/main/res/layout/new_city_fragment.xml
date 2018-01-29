@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/newCityFragLL"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/ivAddContentDescription"
+            android:src="@android:drawable/ic_menu_add"
+            android:tint="@android:color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvDialogTitleText"
+            android:textSize="24sp"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/etNewCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNewCityNameHint"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="24"
+        >
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/btnCancelNewCityDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="@string/btnCancelNewCityDialogText"
+            android:textColor="@color/secondaryRed"
+            android:textSize="16sp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:visibility="invisible"
+            />
+        <Button
+            android:id="@+id/btnAddNewCityDialog"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:text="@string/btnAddNewCityDialogText"
+            android:textColor="@color/secondaryRed"
+            android:textSize="16sp"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SunnyDay</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="ivContentDescription">Custom Sun Logo</string>
+    <string name="navAddCityItemTItle">Add City</string>
+    <string name="navAboutItemTitle">About</string>
+    <string name="etNewCityNameHint">Enter a city name</string>
+    <string name="tvDescriptionExtraText">Default Description</string>
+    <string name="tvTemperatureExtraText">Default Temp</string>
+    <string name="tvHumidityText">HUMIDITY Default%</string>
+    <string name="tvWindSpeedText">WIND SPEED Default MPH</string>
+    <string name="tvDetailsText">Details...</string>
+    <string name="btnDeleteCityContentDescription">delete icon</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ivWeatherIconContentDescription">ivWeatherIconContentDescription</string>
+    <string name="tvCurrentTextTitleText">Current</string>
+    <string name="tvTemperatureDefault">100</string>
+    <string name="tvDescriptionDefault">Hot</string>
+    <string name="btnCancelNewCityDialogText">Cancel</string>
+    <string name="btnAddNewCityDialogText">Add City</string>
+    <string name="ivAddContentDescription">Add Logo</string>
+    <string name="tvDialogTitleText">Add New City</string>
+    <string name="itemUnitsToggleTitle">Imperial</string>
+</resources>
